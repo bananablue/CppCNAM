@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1642081167 source:/home/rudyd/Cpp/Test/Untitled2.cpp
+	<iostream>
+	<array>
+
+1642083529 source:/home/rudyd/Cpp/Test/Ex.cpp
+	<iostream>
+
+1642083361 source:/home/rudyd/Cpp/Test/Untitled4.cpp
+	<iostream>
+

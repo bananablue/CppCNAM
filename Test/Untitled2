@@ -1,0 +1,31 @@
+
+#include <iostream>
+#include <array>
+
+using namespace std;
+
+
+float calculerCarre(float n){
+        return n*n;
+}
+int calculerSommeCarreTableau(const array <int,10>&t ){
+int a = 0;
+for (array<int, 10>::const_iterator it=t.begin();it!=t.end();it++){
+       a= calculerCarre(*it)+a;
+}
+return a;
+}
+
+int main(){
+array<int, 10> t( {1,20,6,40,85,42,4,70,10,80});
+cout<<"SOMME CARRE TABLEAU"<<endl;
+    cout<<"La sommes des carrés de chaque éléments du tableau est "<< calculerSommeCarreTableau(t)<<endl;
+
+
+cout<< "NOMBRE AU CARRE ";
+float n = 0;
+    cout<< "Entrer un chiffre ";
+    cin>> n;
+    cout<<"Le carré de " << n << " est "<<calculerCarre(n);
+    return 0;
+}
